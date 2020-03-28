@@ -9,9 +9,8 @@ npm install
 
 ### Запуск приложения
 
-Через консоль в vscode( можно использовать "npm run start --", но в ней не видно логов)
 ```
-node ./bin/index.js
+npm run start --
 ```
 
 ### Доступные команды
