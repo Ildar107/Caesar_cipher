@@ -1,0 +1,24 @@
+{
+  "name": "caesar-cipher-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "start": "node ./bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ildar107/Caesar_cipher.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ildar107/Caesar_cipher/issues"
+  },
+  "homepage": "https://github.com/Ildar107/Caesar_cipher#readme",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "path": "^0.12.7"
+  }
+}
