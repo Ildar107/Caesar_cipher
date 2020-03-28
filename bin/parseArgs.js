@@ -10,18 +10,18 @@ const appArgs = {
 }
 
 if(!args.action) {
-    process.stderr.write("Error: missed action arguments!");
+    process.stderr.write("Error: missed action arguments!\n");
     process.exit(1);
 } else if(args.action !== undefined && (args.action !== 'encode' && args.action !== 'decode')) {
-        process.stderr.write("Error: wrong action arguments!");
+        process.stderr.write("Error: wrong action arguments!\n");
         process.exit(1);
 }
 
 if(!args.shift) {
-    process.stderr.write("Error: missed shift arguments!");
+    process.stderr.write("Error: missed shift arguments!\n");
     process.exit(1);
 } else if(args.shift !== undefined && (isNaN(Number(args.shift)) || args.shift === true)) {
-    process.stderr.write("Error: wrong shift arguments!");
+    process.stderr.write("Error: wrong shift arguments!\n");
     process.exit(1);
 }
 
