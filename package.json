@@ -20,5 +20,8 @@
   "dependencies": {
     "minimist": "^1.2.5",
     "path": "^0.12.7"
+  },
+  "bin": {
+    "transform" : "./bin/index.js"
   }
 }
