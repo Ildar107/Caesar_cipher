@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/Ildar107/Caesar_cipher#readme",
   "dependencies": {
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "path": "^0.12.7"
   },
   "bin": {
